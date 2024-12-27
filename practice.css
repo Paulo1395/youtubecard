@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.body-container{
+    width: 100%;
+    height: 100vh;
+    margin: 24px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 233, 233);
+}
+
+.whole-design{
+    max-width: 58.75rem;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    background-color: rgb(255, 255, 255);
+    column-gap: 0;
+    /* border-radius: 1rem; */
+}
+
+.right-container{
+    width: 45%;
+    height: 100vh;
+    /* border-radius: 0rem 1rem 1rem 0rem; */
+}
+.form-container{
+    width: 100%;
+    height: auto;
+    padding: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 2rem;
+    /* border-radius: 1rem 0rem 0rem 1rem; */
+}
+.planify-text-and-logo{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+
+.planify-text-and-logo img{
+    width: 48px;
+    height: 48px;
+}
+.planify-text-and-logo h2{
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #131313;
+}
+.welcome-back-container-and-dont-sign-up-yet-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1.5rem;
+}
+.welcome-back-container h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #131313;
+}
+.dont-yet-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.dont-yet-container p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #020005;
+}
+.dont-yet-container p a{
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #020005;
+}
+.input-field-plus-buttons-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 2.125rem;
+}
+.All-input-fields{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+}
+.email-address-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.5rem;
+}
+.email-address-container label{
+    width: fit-content;
+    height: auto;
+    font-size: 0.85rem;
+}
+.email-address-container input{
+    width: 100%;
+    height: auto;
+    padding: 0.6rem;
+    border: 1px solid;
+    border-radius: 0.2rem;
+    border-color: #B5B5B5;
+}
+
+.password-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.5rem;
+}
+.password-container label{
+    width: fit-content;
+    height: auto;
+    font-size: 0.85rem;
+}
+.password-container input{
+    width: 100%;
+    height: auto;
+    padding: 0.6rem;
+    border: 1px solid;
+    border-radius: 0.2rem;
+    border-color: #B5B5B5;
+}
+
+.forgot-password-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    row-gap: 0.5rem;
+}
+.forgot-password-container a{
+    width: fit-content;
+    height: auto;
+    font-size: 0.85rem;
+    text-decoration: none;
+    color: #0057E8;
+    font-weight: 500;
+}
+.filled-and-outline-button{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+}
+.sign-in-button{
+    width: 100%;
+    height: auto;
+}
+.sign-in-button button{
+    width: 100%;
+    height: auto;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 0.2rem;
+    color: #fff;
+    background-color: #2979FF;
+    cursor: pointer;
+
+}
+.sign-in-button button:hover{
+    background-color: #186cfe;
+    color: #fff;
+}
+.sign-in-button button:active{
+    background-color: #004cce;
+    color: #fff;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.sign-in-with-gmail-button{
+    width: 100%;
+    height: auto;
+}
+.sign-in-with-gmail-button button{
+    width: 100%;
+    height: auto;
+    padding: 0.75rem;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.5rem ;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 0.2rem;
+    border-color: #EEEEEE;
+}
+.sign-in-with-gmail-button button img{
+    width: 24px;
+    height: 24px;
+}
+
+
+.sign-in-with-linkedin-button{
+    width: 100%;
+    height: auto;
+}
+.sign-in-with-linkedin-button button{
+    width: 100%;
+    height: auto;
+    padding: 0.75rem;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.5rem ;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 0.2rem;
+    border-color: #EEEEEE;
+}
+.sign-in-with-linkedin-button button img{
+    width: 24px;
+    height: 24px;
+}
+.or-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 1rem;
+}
+.or-container line {
+    width: 240px;
+    height: 2px;
+    background-color: #0057E8;
+}
+.or-container or-text{
+    width: 100%;
+    height: auto;
+    color: #0057E8;
+}
